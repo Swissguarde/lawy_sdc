@@ -64,7 +64,6 @@ export default function FramesResultsPage() {
   const SectionTitle = ({ children }: { children: React.ReactNode }) => (
     <h3 className="text-xl font-semibold text-white/90">{children}</h3>
   );
-  console.log(results.finalMoments);
 
   return (
     <motion.div

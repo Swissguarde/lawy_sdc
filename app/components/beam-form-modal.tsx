@@ -17,7 +17,7 @@ import { solveSimultaneousEquations } from "../utils/boundaryCondition";
 import { calculateBMSF } from "../utils/calculateBMSF";
 import { calculateFinalMoments } from "../utils/calculateFinalMoments";
 import { calculateReactions } from "../utils/calculateReactions";
-import { calculateFixedEndMoments } from "../utils/calculations";
+import { calculateFixedEndMoments } from "../utils/femBeams";
 import { extractCriticalBMSF } from "../utils/criticalBMSF";
 import { LOAD_TYPES } from "../utils/loadTypes";
 import { generateSlopeDeflectionEquations } from "../utils/slopeDeflection";
